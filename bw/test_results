@@ -1,0 +1,105 @@
+## Benchmark tests
+
+
+
+For a newtork with 3 intersections:
+
+Test 1:
+
+for cycle in range(20,121,20) and
+for gi0, go0, gi1, go1, gi2, go2  in range(0,cycle, int(cycle/5)):
+
+	max_cost = 121.37142857061225
+
+	[cycle, gi0, go0, gi1, go1, gi2, go2] = [120, 96, 72, 96, 96, 96, 96]
+
+
+
+
+
+The following tests are for a network with 2 intersections:
+
+
+Test 2:
+
+
+for cycle in range(90,601,10) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/3)):
+
+	 max_cost = 1126.6285303908385
+
+	[cycle, gi0, go0, gi1, go1] = [590, 588, 588, 588, 588]
+
+
+Test 3: 
+
+for cycle in range(20,121,20) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/3)):
+
+	max_cost = 148.6285713681421
+
+	[cycle, gi0, go0, gi1, go1] = [100, 99, 99, 99, 99]
+
+
+
+ Test 4:
+
+for cycle in range(20,121,10) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/3)):
+
+	 max_cost = 166.62857135085653
+
+	[cycle, gi0, go0, gi1, go1] = [110, 108, 108, 108, 108]
+
+
+
+Test 5:
+
+
+for cycle in range(10,121,5) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/3)):
+
+	 max_cost = 178.6285713388293
+
+	[cycle, gi0, go0, gi1, go1] = [115, 114, 114, 114, 114]
+
+
+
+Test 6:
+
+
+for cycle in range(100,121,1) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/3)):
+
+	 max_cost = 184.62857133268835
+
+	[cycle, gi0, go0, gi1, go1] = [119, 117, 117, 117, 117]
+
+
+Test 7:
+
+
+for cycle in range(100,121,1) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/5)):
+
+	 max_cost = 180.6285713367903
+
+	[cycle, gi0, go0, gi1, go1] = [119, 115, 115, 115, 115]
+
+
+Test 8:
+
+
+for cycle in range(115,121,1) and
+for gi0, go0, gi1, go1  in range(0,cycle, int(cycle/7)):
+
+	 max_cost = 188.62857132856308
+
+	[cycle, gi0, go0, gi1, go1] = [120, 119, 119, 119, 119]
+
+
+
+
+
+
+
